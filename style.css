@@ -1,0 +1,261 @@
+/*
+Theme Name: TKJ-SIJA
+Text Domain: tkjsija
+Version: 1.0
+Requires at least: 4.7
+Requires PHP: 5.2.4
+Author: SIJA SMEKDA
+
+All files, unless otherwise stated, are released under the GNU General Public
+License version 2.0 (http://www.gnu.org/licenses/gpl-2.0.html)
+*/
+
+.wp-block-image > img{
+  height:100% !important;
+  width:100% !important;
+}
+
+
+.bg-theme{
+  background: rgb(43, 152, 236);
+}
+.bg-cover{
+  background: rgba(0, 0, 0, 0.5);
+}
+.bg-gradient-theme{
+  -moz-transition: all .4s ease-in-out;
+  -o-transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+
+  background-size: 300% 100%;
+  background-image: linear-gradient(to right, rgb(26, 141, 230), rgb(158, 203, 255), rgb(158, 203, 255), rgb(82, 159, 223)); 
+}
+.bg-gradient-theme:hover{
+  transition: 0.5s;
+  background-position: 100% 0;
+}
+
+.text-theme{
+  color: rgb(43, 152, 236);
+}
+
+.header-underline{
+  width: max-content; 
+  border-bottom: 4px solid rgb(43, 152, 236);
+}
+.header-underline-sm{
+  width: max-content; 
+  border-bottom: 2px solid rgb(142, 194, 233);
+}
+.header-sideborder{
+  border-left: 4px solid rgb(43, 152, 236);
+  padding: 4px;
+  padding-left: 10px;
+}
+.header-sideborder-muted{
+  border-left: 4px solid rgb(55, 55, 55);
+  padding: 2px;
+  padding-left: 6px;
+}
+
+.btn-instagram{
+  color: white;
+  border: none;
+  background: #f09433; 
+  background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+  background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+  background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+}
+
+.cursor-pointer{
+  cursor: pointer;
+}
+.cursor-none{
+  cursor: default;
+}
+
+.indent{
+  text-indent: 30px;
+}
+
+.knm-fs-1{
+  font-size: 1.45em;
+}
+.knm-fs-2{
+  font-size: 1.15em;
+}
+.knm-fs-3{
+  font-size: 1em;
+}
+
+
+
+
+
+
+/* iframe */
+.google-maps{
+  background: rgb(235, 235, 235);
+  border: rgb(175, 175, 175);
+}
+.google-maps iframe{
+  width: 100%;
+  height: 360px;
+}
+
+.youtube{
+  background: rgb(235, 235, 235);
+}
+.youtube iframe{
+  width: 100%;
+  height: 190px;
+}
+
+
+/* Swiper js ================================= */
+.swiper-button-prev{
+  outline: none;
+  top: 8%;
+  left: 0;
+  height: 100%;
+  padding: 0 2rem;
+}
+.swiper-button-next{
+  outline: none;
+  top: 8%;
+  right: 0;
+  height: 100%;
+  padding: 0 2rem;
+}
+
+.mainfull-wrap .main-cell{
+  overflow: hidden;
+  width: 100%;
+  height: 520px;
+  max-height: 650px;
+}
+.main-cell{
+  background-color: black;
+  position: relative;
+}
+.main-cell img{
+  opacity: 0.8;
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover;
+}
+
+.knm-slide{
+  width: 100%;
+  height: 320px;
+}
+.knm-slide img{
+  object-fit: cover;
+}
+.knm-slide-card{
+  background: rgba(255, 255, 255, 0.9);
+  width: 200px;
+  height: 240px;
+}
+
+
+
+@media screen and (min-width: 767px){
+  .knm-fs-1{
+    font-size: 2.4em;
+  }
+  .knm-fs-2{
+    font-size: 2em;
+  }
+  .knm-fs-3{
+    font-size: 1.6em;
+  }
+
+  .google-maps iframe{
+    height: 340px;
+  }
+
+  .youtube iframe{
+    height: 350px;
+  }
+
+
+  .knm-slide{
+    height: 360px;
+  }
+  .knm-slide-card{
+    background: rgb(255, 255, 255);
+    height: 260px;
+  }
+}
+
+@media screen and (min-width: 991px){
+  .knm-fs-1{
+    font-size: 2.4em;
+  }
+  .knm-fs-2{
+    font-size: 1.6em;
+  }
+  .knm-fs-3{
+    font-size: 1.3em;
+  }
+
+  .google-maps iframe{
+    height: 400px;
+  }
+
+  .youtube iframe{
+    height: 200px;
+  }
+
+  .sticky-padding{
+    padding-top: 90px;
+  }
+}
+
+
+
+/* Marque effect ==================================== */
+.marquee {
+  width: 100%;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.marquee span {
+  display: inline-block;
+  width: max-content;
+
+  padding-left: 100%;
+  /* show the marquee just outside the paragraph */
+  will-change: transform;
+  animation: marquee 35s linear infinite;
+}
+
+.marquee span:hover {
+  animation-play-state: paused
+}
+.marquee span strong{
+  color: yellow;
+}
+
+
+@keyframes marquee {
+  0% { transform: translate(0, 0); }
+  100% { transform: translate(-100%, 0); }
+}
+
+/* Respect user preferences about animations */
+@media (prefers-reduced-motion: reduce) {
+  .marquee span {
+    animation-iteration-count: 1;
+    animation-duration: 0.01; 
+    /* instead of animation: none, so an animationend event is 
+     * still available, if previously attached.
+     */
+    width: auto;
+    padding-left: 0;
+  }
+}
