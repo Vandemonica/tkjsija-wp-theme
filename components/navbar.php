@@ -21,14 +21,15 @@ $array_menu = [
     'sub' => [
       ['label' => 'Gallery', 'link' => '/gallery'],
       ['label' => 'Berita dan Blog', 'link' => '/berita-blog'],
-      [],
       ['label' => 'Tentang', 'link' => '/about'],
+      [],      
+      ['label' => 'Halaman admin', 'link' => '/admin'],
     ] 
   ],
   [
     'label' => 'PPDB Surabaya', 
     'icon' => '<i class="las la-calendar-check"></i>', 
-    'link' => 'https://www.ppdbsd.surabaya.go.id/'
+    'link' => 'https://surabaya.siap-ppdb.com/'
   ],
 ];
 

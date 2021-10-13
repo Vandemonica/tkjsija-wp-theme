@@ -1,9 +1,8 @@
 <?php
 $image = [
-  'http://www.smkn2sby.sch.id/media_library/image_sliders/42d8691c9f6d0b83ee6fbaa937d44d0e.jpg',
-  'http://www.smkn2sby.sch.id/media_library/image_sliders/8cea3b7b3a095e8905a1328db0da65bc.jpg',
-  'http://www.smkn2sby.sch.id/media_library/image_sliders/4acd762e4060ec82c660944c0faef2f2.jpg',
-  'http://www.smkn2sby.sch.id/media_library/image_sliders/4184ecedfe475009cd7548cc9fd50507.jpg'
+  'slide1.jpg',
+  'slide2.jpg',
+  'slide3.jpg'
 ];
 
 ?>
@@ -13,7 +12,7 @@ $image = [
   <div class="swiper-wrapper mainfull-wrap">
     <?php foreach($image as $item): ?>
       <div class="swiper-slide main-cell">
-        <img src="<?= $item ;?>">
+        <img src="<?= $baseDir ?>/assets/image/<?= $item ;?>">
       </div>
     <?php endforeach; ?>
   </div>

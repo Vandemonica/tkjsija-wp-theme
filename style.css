@@ -10,10 +10,14 @@ All files, unless otherwise stated, are released under the GNU General Public
 License version 2.0 (http://www.gnu.org/licenses/gpl-2.0.html)
 */
 
+*{
+  font-family: Arial, Helvetica, sans-serif;
+}
 .wp-block-image > img{
   height:100% !important;
   width:100% !important;
 }
+
 
 
 .bg-theme{
@@ -77,7 +81,7 @@ License version 2.0 (http://www.gnu.org/licenses/gpl-2.0.html)
 }
 
 .indent{
-  text-indent: 30px;
+  text-indent: 18px;
 }
 
 .knm-fs-1{
@@ -89,6 +93,7 @@ License version 2.0 (http://www.gnu.org/licenses/gpl-2.0.html)
 .knm-fs-3{
   font-size: 1em;
 }
+
 
 
 
@@ -161,6 +166,11 @@ License version 2.0 (http://www.gnu.org/licenses/gpl-2.0.html)
 }
 
 
+.about-col{
+  height: 230px;
+}
+
+
 
 @media screen and (min-width: 767px){
   .knm-fs-1{
@@ -189,6 +199,10 @@ License version 2.0 (http://www.gnu.org/licenses/gpl-2.0.html)
     background: rgb(255, 255, 255);
     height: 260px;
   }
+
+  .about-col{
+    height: 300px;
+  }
 }
 
 @media screen and (min-width: 991px){
@@ -212,6 +226,10 @@ License version 2.0 (http://www.gnu.org/licenses/gpl-2.0.html)
 
   .sticky-padding{
     padding-top: 90px;
+  }
+
+  .about-col{
+    height: 340px;
   }
 }
 

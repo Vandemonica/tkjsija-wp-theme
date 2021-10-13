@@ -1,6 +1,6 @@
   <!-- Footer -->
-  <footer>
-    <div class="bg-dark text-white py-4 px-md-4">
+  <footer class="bg-dark">
+    <div class="text-white py-4 px-md-4">
       <div class="container-fluid">
         <div class="row pb-4">
           <div class="col-md-auto">
@@ -54,10 +54,10 @@
             </div>
           </div>
         </div>
-      </div>
-    </div>
-    <div class="bg-dark py-4 text-center px-2">
-      <small class="text-muted ">Website Design and Development by SIJA SMEKDA</small>
+      </div>      
+    </div>    
+    <div class="py-4 text-center px-2 border-top border-secondary">
+      <small class="text-muted">Website Design and Development by SIJA SMEKDA</small>      
     </div>
   </footer>
 </body>
