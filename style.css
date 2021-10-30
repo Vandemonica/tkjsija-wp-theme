@@ -70,7 +70,7 @@ License version 2.0 (http://www.gnu.org/licenses/gpl-2.0.html)
   background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
   background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
   background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888', GradientType=1 );
 }
 
 .cursor-pointer{
@@ -191,13 +191,20 @@ License version 2.0 (http://www.gnu.org/licenses/gpl-2.0.html)
     height: 350px;
   }
 
+  .post-card{
+    background: white;
+    border: 1px solid #dee2e6;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top: 20vh;
+  }
+
 
   .knm-slide{
-    height: 360px;
+    height: 400px;
   }
   .knm-slide-card{
     background: rgb(255, 255, 255);
-    height: 260px;
+    height: 300px;
   }
 
   .about-col{

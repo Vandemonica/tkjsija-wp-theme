@@ -2,9 +2,10 @@
 
   <div class="swiper-wrapper">
     <?php $postCount = 0; if (have_posts()): while (have_posts()): 
-      if($postCount > 2){
+      if($postCount > 3){
         break;
       }
+
         the_post(); 
         $getThumbnail = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'thumbail-'.$post->ID ); 
         $thumbnail = $getThumbnail[0] !== null ? $getThumbnail[0] : $baseDir.'/assets/image/ph-berita.jpg';
